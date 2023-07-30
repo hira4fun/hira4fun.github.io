@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>R&B Playlist</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+	  <script>
+    var sites = [
+     'pop.html',
+	   'rock.html',
+	   'rap.html',
+		'edm.html',
+	   'jazz.html',
+	   'theater.html',
+		'randb.html',
+	   'dance.html',
+	   'altrock.html',
+		'indie.html',
+	   'classical.html',
+	   'psychrock.html',
+		'hyperpop.html',
+	   'swing.html',
+	   'country.html',
+		'folk.html',
+	   'soul.html',
+	   'house.html',
+		'latin.html'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<body>
+	<header class="header" role="banner">
+  <div class="logo">Playlist Finder</div>
+  <nav class="nav" role="navigation">
+    <ul>
+      <li><a href="Website.htm">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="Feedback.html">FEEDBACK</a></li>
+	  <li><a href="#" onclick="randomSite();">RANDOM GENRE</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main" role="main">
+  <div class="block block--one">
+    <h3 class="title">
+      R&B Playlist!
+    </h3>
+	  <br>
+    <div class="description">
+		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7Ll3CWx8VwRan0FFamai5X?utm_source=generator" width="100%" max-width="200%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		<br>
+		<p>Wanna keep the music going? You might like these Genres</p>
+		<a href="jazz.html"><button class="button" href="" onclick="showDescription()">Jazz Music</button></a>
+		<a href="soul.html"><button class="button" href="" onclick="showDescription()">Soul Music</button></a>
+    </div>
+  </div>
+  <div class="block block--two">
+    <h3 class="title title--dark">
+      Expand your taste by trying out new Genres!
+	  </h3><img src="randb.jpg" alt= "R&B">
+    <div class="description">
+      <p class="text text--dark">Interested in trying a new genre? We have just the solution for you! Just click the link below to go to a random genres playlist!</p>
+	  </div>
+    <a href="#" onclick="randomSite();"><button class="button" onclick="showDescription()">Random Genre!</button></a>
+  </div>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="copyright">
+    <p>2022 by Zoe Johnson Contact at hira4fun@gmail.com</p>
+  </div>
+  <div class="icons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-youtube" aria-hidden="true"></i>
+    <i class="fa fa-snapchat" aria-hidden="true"></i>
+  </div> 
+</footer>
+</body>     
+</html>

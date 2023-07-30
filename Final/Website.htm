@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<title>Playlist Finder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="" />
+
+<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
+</head>
+  <script>
+    var sites = [
+       'pop.html',
+	   'rock.html',
+	   'rap.html',
+		'edm.html',
+	   'jazz.html',
+	   'theater.html',
+		'randb.html',
+	   'dance.html',
+	   'altrock.html',
+		'indie.html',
+	   'classical.html',
+	   'psychrock.html',
+		'hyperpop.html',
+	   'swing.html',
+	   'country.html',
+		'folk.html',
+	   'soul.html',
+	   'house.html',
+		'latin.html'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<body>
+	<header class="header" role="banner">
+  <div class="logo">Playlist Finder</div>
+  <nav class="nav" role="navigation">
+    <ul>
+      <li><a href="Website.htm">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+       <li><a href="Feedback.html">FEEDBACK</a></li>
+	  <li><a href="#" onclick="randomSite();">RANDOM GENRE</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+ <div class="masonry">
+  <div class="item">
+	  <div class="item__content"><a href="pop.html">POP</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="rock.html"><p>ROCK</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--medium">
+		<a href="rap.html"><p>RAP</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="edm.html"><p>EDM</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--medium">
+		<a href="jazz.html"><p>JAZZ</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content">
+		<a href="theater.html"><p>THEATER</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--large">
+		<a href="randb.html"><p>R&B</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--medium">
+		<a href="dance.html"><p>DANCE</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="altrock.html"><p>ALT ROCK</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content">
+		<a href="indie.html"><p>INDIE</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--large">
+		<a href="classical.html"><p>CLASSICAL</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content">
+		<a href="psychrock.html"><p>PSYCHROCK</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="hyperpop.html"><p>HYPERPOP</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--large">
+		<a href="swing.html"><p>SWING</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--medium">
+		<a href="country.html"><p>COUNTRY</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="folk.html"><p>FOLK</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--medium">
+		<a href="soul.html"><p>SOUL</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content">
+		<a href="house.html"><p>HOUSE</p></a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item__content item__content--small">
+		<a href="latin.html"><p>LATIN</p></a>
+    </div>
+  </div>
+</div>
+</body>
+<footer class="footer" role="contentinfo">
+  <div class="copyright">
+    <p>2022 by Zoe Johnson Contact at hira4fun@gmail.com</p>
+  </div>
+  <div class="icons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-youtube" aria-hidden="true"></i>
+    <i class="fa fa-snapchat" aria-hidden="true"></i>
+  </div> 
+</footer>
+</html>
