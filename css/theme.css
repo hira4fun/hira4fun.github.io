@@ -266,7 +266,6 @@ cite {
 	left: 0;
 	right: 0;
 	text-align: center;
-	text-transform: uppercase;
 	z-index: 15;
 	font-size: 18px;
 	font-weight: 400;
@@ -277,6 +276,7 @@ cite {
 	font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
 	font-weight: 700;
+	text-transform: uppercase;
     font-size: 100px;
     margin-bottom: 30px;
 }
@@ -284,7 +284,6 @@ cite {
 #home-slider .caption p {
     color: #fff;
 	font-size: 30px;
-    text-transform: uppercase;
 	padding-bottom: 40px;
 }
 
