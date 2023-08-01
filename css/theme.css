@@ -1238,7 +1238,7 @@ span.price {
 	font-style: italic;
 	font-size: 18px;
 	color: #fff;
-	padding:
+	padding: 0;
 }
 
 .testimonial-inner p::before{  
